@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simon Game</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+</head>
+
+<body>
+	<div class="outer_ring">
+		<div id="game">
+		<div id="red" class="red color"></div>
+		<div id="blue" class="blue color"></div>
+		<div id="green" class="green color"></div>
+		<div id="yellow" class="yellow color"></div>
+		<div class="center">
+			<div id="strict">strict mode off</div>
+			<div id="count"></div>
+			<div id="start">Start!</div>
+			</div>
+	</div>
+	</div>
+
+	<audio src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" id="yellow_sound"></audio>
+	<audio src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" id="blue_sound"></audio>
+	<audio src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" id="red_sound"></audio>
+	<audio src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" id="green_sound"></audio>
+</body>
+<script src="script.js"></script>
+</html>
