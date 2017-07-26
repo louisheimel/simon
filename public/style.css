@@ -90,9 +90,9 @@ div {
 #start {
   background-color: #ffffff;
   top: 200px;
-  left: 15px;
-    height: 40px;
-  width: 90px;
+  left: 0px;
+  height: 40px;
+  width: 150px;
   padding: 5px;
   font-size: 25px;
 }
