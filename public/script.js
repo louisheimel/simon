@@ -139,6 +139,8 @@ const game = (() => {
       gameStarted = true
       addToColorList()
       beep()
+    } else {
+      reset()
     }
 	}
 
